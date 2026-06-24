@@ -1,6 +1,9 @@
 //Start coding here
-const greeting = "Hello ! 😁";
+const greeting = "";
 
-greeting();
+let x =
+  greeting === "Hello ! 😁"
+    ? "Hello ! 😁\nThis line will be executed without any error."
+    : "false";
 
-console.log("This line will be executed without any error.");
+console.log(x);
